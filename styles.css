@@ -1,0 +1,44 @@
+footer {
+  position: fixed;
+  bottom: 0; /* Hace que se posicione al final de la página */
+  width: 100%;
+  text-align: center;
+  background-color: #ccc;
+  padding: 10px;
+}
+#map {
+  height: 400px;
+  margin-top: 20px;
+}
+
+.nav.nav-underline {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav.nav-underline {
+  /* Centrar los elementos de la barra de navegación */
+  justify-content: center;
+}
+
+.nav.nav-underline .nav-item {
+  margin: 0 10px;
+}
+
+.nav.nav-underline .nav-link {
+  color: white;
+}
+
+.nav.nav-underline .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+}

@@ -33,11 +33,11 @@ class  bbdd
     return $this->conx->prepare($sql);
   }
 
-  public function executa($sql)
+/*  public function executa($sql)
   {
-    return $this->conx->exec($sql) ;
+    return $this->conx->executa($sql);
   }
-
+*/
   public function inicializaConsulta($rs)
   {
     return mysqli_data_seek($rs, 0);
